@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Testing</title>
+    <style>
+        /* target & target value */
+        /* ------------------------------------------------------------ */
+        a[target] {
+            background-color: yellow;
+        }
+        a[target="_top"] {
+            background-color: rgb(212, 201, 201);
+        }
+        a[target="_blank"] {
+            background-color: rgba(163, 24, 93, 0.329);
+        }
+        a:hover {
+            color: rgba(220, 20, 60, 0.719);
+        }
+        /* ------------------------------------------------------------ */
+        /* [class|="test"] {
+            background: blueviolet;
+        } */
+        /* [class^="test"] {
+            background: crimson;
+        } */
+        /* [class$="test"] {
+            background-color:cornflowerblue;
+        } */
+        /* [class*="te"] {
+            background-color: aquamarine;
+        } */
+        /* ------------------------------------------------------------ */
+        </style>
+</head>
+<body>
+    <hr>
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <a href="https://www.youtube.com">YouTube</a>
+    <a href="https://www.facebook.com" target="_top">Facebook</a>
+    <hr>
+    <hr>
+    <div class="test-01">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    <div class="test-02">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    <div class="test03">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    <hr>
+    <div class="My test">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    <div class="My test">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+    <div class="My test-01">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+</body>
+</html>
